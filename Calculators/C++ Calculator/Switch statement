@@ -1,0 +1,38 @@
+#include<iostream>
+#include<conio.h>
+  using namespace std;
+int main()
+   {
+   cout << "Calculator\n";
+   double a, b;
+   char res;
+   cout << "Enter first number\n";
+   cin  >>  a;
+   cout <<  "Enter second number\n";
+   cin  >>  b;
+   cout <<  "Enter Operation\n + to add\n - to subtract\n * to multiply\n \/ to divide\n";
+   
+   switch(res)
+   {
+   case '+':
+   cout << a << '+' << b << '=' << a+b;
+   break;
+   
+   case '-':
+   cout << a << '-' << b << '=' << a-b;
+   break;
+   
+   case '*':
+   cout << a << '*' << b << '=' << a*b;
+   break;
+   
+   case '/':
+   cout << a << '/' << b << '=' << a/b;
+   break;
+   
+   default:
+   cout << "ERROR";
+   break;
+   }
+   getche();
+   }
