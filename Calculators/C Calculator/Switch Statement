@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-#include<math.h>  //if you want an square root option
+#include<math.h>  //if you want a square root option
 
      void main()
      {
