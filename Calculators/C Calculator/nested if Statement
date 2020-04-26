@@ -18,26 +18,26 @@
        
        if(result == '+')
        {
-        print("%lf - %lf = %lf", a, b, a+b); // in case of + this will be executed
+        printf("%lf - %lf = %lf", a, b, a+b); // in case of + this will be executed
        }
        
        if(result == '-')
        {
-       print("%lf - %lf = %lf", a, b, a-b);  // in case of - this will be executed
+       printf("%lf - %lf = %lf", a, b, a-b);  // in case of - this will be executed
        }
        
        if(result == '*')
        {
-       print("%lf * %lf = %lf", a, b, a*b);   // in case of * this will be executed
+       printf("%lf * %lf = %lf", a, b, a*b);   // in case of * this will be executed
        }
        
        if(result == '/')
        {
-       print("%lf / %lf = %lf", a, b, a/b);   // in case of / this will be executed
+       printf("%lf / %lf = %lf", a, b, a/b);   // in case of / this will be executed
        }
        else
        {
-       print("ERROR");     // in case of any other character this will be executed
+       printf("ERROR");     // in case of any other character this will be executed
        }
     getche();
     }
