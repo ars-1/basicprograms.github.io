@@ -1,4 +1,3 @@
-# calculator.github.io
-Simple calculators using Switch and nested if in C, C++ and Python.
-C and C++ command line calculators using switch statement.
-Python, C and C++ command line calculators using nested if.
+# Basic Programs In C, C++ and Python.
+Simple command line calculators using Switch and nested if in C, C++ and Python.
+Simple mathematical table in C, C++ and Python Using While and For Loop.
