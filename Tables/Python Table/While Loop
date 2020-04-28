@@ -1,0 +1,7 @@
+print("Simple Table\n");
+a = int(input("Enter Number=\n"))
+b = int(input("Enter Limit=\n"))
+c = 1;
+while(c <= b):
+    print(a, "*", c, "=", a*c)
+    c= c+1;
