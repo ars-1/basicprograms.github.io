@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main();
+{
+clrscr();
+printf("Simple Table\n");
+
+int a;
+int b;
+printf("Enter Number= \n");
+scanf("%d", &a);
+printf("Enter Limit= \n");
+scanf("%d", &b);
+
+
+for(int c = 1; c <= b; c++;)
+{
+printf("%d * %d = %d", a, c, a*c);
+}
+getche();
+}
